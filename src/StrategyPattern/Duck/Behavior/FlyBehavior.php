@@ -1,4 +1,4 @@
-<?php
+<?php namespace StrategyPattern\Duck\Behavior;
 
 interface FlyBehavior
 {
