@@ -1,11 +1,9 @@
-<?php
+<?php namespace StrategyPattern\Duck\Behavior;
 
 class FlyWithWings implements FlyBehavior
 {
-
     public function fly()
     {
-        // TODO: Implement fly() method.
-        echo 'fly with wings';
+        echo "I'm flying!!";
     }
 }
