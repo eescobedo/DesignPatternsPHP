@@ -1,13 +1,12 @@
 <?php
 
+use StrategyPattern\Duck\MallardDuck;
+
 require __DIR__ . '/../../vendor/autoload.php';
 
-use StrategyPattern\Duck as Duck;
-//use StrategyPattern\Duck\MallardDuck;
-use Common\Utils;
-
-$mallard = new Duck\MallardDuck();
+$mallard = new MallardDuck();
 
 $mallard->performQuack();
-echo "-------";
+echo "\n";
 $mallard->performFly();
+echo "\n";

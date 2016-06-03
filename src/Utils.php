@@ -1,6 +1,5 @@
+<?php namespace Common;
 
-<?php
-namespace Common;
 class Utils
 {
     /**

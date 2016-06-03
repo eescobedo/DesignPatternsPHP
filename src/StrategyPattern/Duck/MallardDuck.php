@@ -3,7 +3,7 @@
 use StrategyPattern\Duck\Behavior\FlyWithWings;
 use StrategyPattern\Duck\Behavior\Quack;
 
-use Common\Utils;
+//use Common\Utils;
 
 class MallardDuck extends Duck
 {
@@ -19,6 +19,6 @@ class MallardDuck extends Duck
     public function display()
     {
         echo "I'm a real mallard duck";
-        Utils::println("I'm a real Mallard duck");
+//        Utils::println("I'm a real Mallard duck");
     }
 }
